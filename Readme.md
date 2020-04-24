@@ -25,8 +25,9 @@ https://dash.plotly.com/dash-core-components/slider
 https://plotly.com/python/basic-charts/
 
 <br>
-網路教學
-
+範例參考
 https://www.datainpoint.com/data-science-in-action/19-communicating-with-dash.html#%E5%AE%89%E8%A3%9D-dash
 
 https://medium.com/datainpoint/interactive-gapminder-with-python-90f8d604a0a2
+
+http://liangfan.tech/2018/12/06/Python-Dash%E5%8D%81%E8%AE%B2%E4%B9%8B3-Dash-dcc.Graph/

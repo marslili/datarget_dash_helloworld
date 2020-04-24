@@ -49,7 +49,29 @@ app.layout = html.Div([
                 hovermode='closest'
             )
         }
-    )
+    ),
+    # 折线图
+    dcc.Graph(
+        id='graph-line',
+        className='my_graph',
+        figure={
+            'data': [{
+                'x': df['height'],
+                'y': df['fans'],
+                'type': 'scatter',
+                'mode': 'lines+markers',
+            }],
+            'layout': {
+                'title': '各城市男性人口',
+                'height': 600,
+                'yaxis': {'hoverformat': '.0f'},
+                'margin': {'l': 35, 'r': 35, 't': 50, 'b': 80},
+            }
+        },
+        config={
+            'displayModeBar': False
+        },
+    ),
 ])
 
 if __name__ == '__main__':
